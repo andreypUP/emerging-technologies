@@ -12,3 +12,14 @@ This repository supplements the Emerging Technologies course. By the end of the 
 | Color Tracking | To master OpenCV's color tracking capability | [activities/opencv_samples/color_tracking.py](activities/opencv_samples/color_tracking.py) |
 | Face Tracking | To implement face detection and tracking using Haar cascades | [activities/opencv_samples/face_tracking/facetracking.py](activities/opencv_samples/face_tracking/facetracking.py) |
 | Eye Tracking | To implement eye detection and tracking using Haar cascades | [activities/opencv_samples/eye_tracking/eyetracking.py](activities/opencv_samples/eye_tracking/eyetracking.py) | 
+
+
+##Create Python Virtual Environment
+# Create a virtual environment
+python3 -m venv myenv
+
+# Activate the virtual environment
+source myenv/bin/activate
+
+# Now install numpy
+pip install numpy
