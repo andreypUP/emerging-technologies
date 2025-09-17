@@ -1,6 +1,11 @@
 # Emerging Technologies
 This repository supplements the Emerging Technologies course. By the end of the course, the learner is expected to demonstrate Artificial Intelligence-driven solutions to solve engineering problems.
 
+## Dependencies
+Create a new virtual environment and install the necessary libraries using the [requirements.txt](requirements.txt) file.
+```bash
+pip install -r requirements.txt
+```
 
 ## Course Outline
 
@@ -9,6 +14,8 @@ This repository supplements the Emerging Technologies course. By the end of the 
 | Python Basics and Exercises | To enhance practical skills in basic Python syntax |  [activities/Lastname_Python_Basics_and_Exercises.ipynb](activities/Lastname_Python_Basics_and_Exercises.ipynb) |
 | Advanced Python and Exercises | To learn NumPy and Pandas libraries | [activities/Lastname_Advanced_Python_and_Exercises.ipynb](activities/Lastname_Advanced_Python_and_Exercises.ipynb) |
 | Coin Counting | To master OpenCV's image processing available APIs. Read the [coin_counting/README.md](activities/opencv_samples/coin_counting/README.md) for the details on the sample images. | [activities/opencv_samples/coin_counting/coin_counting.py](activities/opencv_samples/coin_counting/coin_counting.py) |
-| Color Tracking | To master OpenCV's color tracking capability. Read the [color_tracking/README.md](activities/opencv_samples/color_tracking/video/README.md) | [activities/opencv_samples/color_tracking/color_tracking.py](activities/opencv_samples/color_tracking/color_tracking.py) |
-| Face Tracking | To implement face detection and tracking using Haar cascades | [activities/opencv_samples/face_tracking/facetracking.py](activities/opencv_samples/face_tracking/facetracking.py) |
-| Eye Tracking | To implement eye detection and tracking using Haar cascades | [activities/opencv_samples/eye_tracking/eyetracking.py](activities/opencv_samples/eye_tracking/eyetracking.py) | 
+| Color Tracking | To master OpenCV's color tracking capability. Read the [color_tracking/README.md](activities/opencv_samples/color_tracking/video/README.md). | [activities/opencv_samples/color_tracking/color_tracking.py](activities/opencv_samples/color_tracking/color_tracking.py) |
+| Face Tracking | To implement face detection and tracking using Haar cascades. Read the [face_tracking/README.md](activities/opencv_samples/face_tracking/video/README.md) | [activities/opencv_samples/face_tracking/facetracking.py](activities/opencv_samples/face_tracking/facetracking.py) |
+| Eye Tracking | To implement eye detection and tracking using Haar cascades.Read the [eye_tracking/README.md](activities/opencv_samples/eye_tracking/video/README.md) | [activities/opencv_samples/eye_tracking/eyetracking.py](activities/opencv_samples/eye_tracking/eyetracking.py) | 
+| Hand Detection | To demonstrate Mediapipe's detection model to determine the left and right hands, with their other useful information. | [activities/opencv_samples/hand_detection/hand.py](activities/opencv_samples/hand_detection/hand.py) |
+
